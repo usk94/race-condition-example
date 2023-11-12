@@ -6,6 +6,7 @@ module Api
 
       def create
         sleep 5
+        render json: { card_seq: 0 }
       end
     end
   end
