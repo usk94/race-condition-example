@@ -6,7 +6,7 @@ module Api
 
       def create
         sleep 5
-        render json: { card_seq: 0 }
+        render json: { message: "response is back!" }
       end
     end
   end
