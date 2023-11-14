@@ -2,6 +2,7 @@ module Api
   module V1
     class CardsController < ApplicationController
       def index
+        p "session in card controller", session
       end
 
       def create
